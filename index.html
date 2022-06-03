@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMEN HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
+</head>
+<body>    
+        <!--BARRA DE NAVEGACION-->
+        <div class="barra-navegacion">            
+            <div class="navegation-tec">
+                <img src="./img/logo.png" alt="Logo">
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Examples</a></li>
+                    <li><a href="#">Themes</a></li>
+                    <li><a href="#">Expo</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>             
+            </div>
+            <div class="lista-boton-juntos">
+                <ul class="nav-links">
+                    <li class="fon-fan"><a href="#">v4.3</a>&nbsp;<i class="fa fa-caret-down"></i></li>
+                    <li><a href="#"><img src="./img/ico-git.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/ico-twitter.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/ico-slack.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/ico-coll.png" alt=""></a></li>                
+                </ul>
+                <button id="btn" onclick="alerta()">Download</button> 
+            </div>                 
+        </div>
+
+        <!--Contenido de donde esta los botones-->
+        <div class="container">
+            <section class="contaner_section">
+                <div class="text-logo">
+                    <h1>Bootstrap</h1>
+                    <div class="text-para">
+                        <h3>Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</h3>
+                        <h3>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype you ideas or buil your entire app with our Saa variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugin on JQuery.</h3>
+                        <button class="component" onmouseover="over(this)" onmouseout="out(this)">Get started</button>
+                        <button class="component-1" onmouseover="over(this)" onmouseout="out(this)">Get started</button>
+                        <p>Currently v4.3.1</p>
+                    </div> 
+                    <div class="componente-segment">                        
+                        <img src="./img/ad-segment.png" alt="segmento">
+                        <div class="texto-componente-segment">
+                            <p class="parrafo-contendio-instala">Collect customer data once with a single API. Porwer your entire tech stactk.</p>
+                            <p>ads via Carbon</p>
+                        </div>
+                    </div>   
+                </div>
+                <div>
+                    <img src="./img/main_img.png" alt="logo_bootstrap">
+                </div>
+            </section>            
+        </div>
+        <!--Contenido de donde Tablas de Instalacion-->
+        <section class="tablas-instal">
+            <div class="inline-flex">
+                <div class="item1">
+                    <img src="./img/ico-install.png" alt="instalar">
+                    <h2 class="item1-Instalation">Installation</h2>
+                    <p class="parrafo-contendio-instala">Inlcude Bootstrap's source sass and JavaScript files via npm, Composer or Meteor. Package managed installa don´t include documentation, but do inlcude our build system and readme.</p>
+                    <p class="parrafo-contendio-instala"><code class="code-zul">$</code>&nbsp;nmp<code class="code-verde">&nbsp;install</code>&nbsp;bootstrap</p>
+                    <p class="parrafo-contendio-instala"><code class="code-zul">$</code>&nbsp;gem<code class="code-verde">&nbsp;install</code>&nbsp;bootstrap<code class="code-verde">&nbsp;-v&nbsp;</code>4.3.1</p>
+                    <br>
+                    <hr>
+                    <br>
+                    <button class="btn-CDN">Read installation docs</button>  
+                </div>
+                <div class="item2">
+                    <img src="./img/ico-cdn.png" alt="instalar">
+                    <h2 class="item1-Instalation">BootstrapCDN</h2>
+                    <p class="parrafo-contendio-instala">When you only need to include Bootstrap´s compiled CSS or JS, you can use&nbsp;<a href="#" class="color-link">BootstrapCND</a>.</p>
+                    <h3 class="item2-css">CSS only</h3>
+                    <div class="horizontal-scroll-contenedor">
+                        <div class="hijo-scroll">
+                            <ul class="hijo-scroll-2-ull">
+                                <li class="hijo-scroll-2-lii"><code class="code-zul">&lt;link</code><code class="code-celeste">real=</code><code>"stylesheet"</code><code class="code-celeste">href=</code><code>"https://code.jquery.csbuebfqwncpoibeuvbwiovbewkhbj...</code>"></li>                                
+                            </ul> 
+                        </div>
+                    </div>
+                    <h3 class="item2-css">JS, Popper.js, and jQuery</h3>
+                    <div class="horizontal-scroll-contenedor-2">
+                        <div class="hijo-scroll-2">                            
+                            <ul class="hijo-scroll-2-ull">
+                                <li class="hijo-scroll-2-lii"><code class="code-zul">&lt;script</code><code class="code-celeste">src=</code><code>"https://code.jquery.csbuebfqwncpoibeuvbwiovbewkhbj...</code>"></li>
+                                <li class="hijo-scroll-2-lii"><code class="code-zul">&lt;script</code><code class="code-celeste">src=</code><code>"https://cdnjs.cloudfconcsbuebfqwncpoibeuvbwiovbewkhbj...</code>"></li>
+                                <li class="hijo-scroll-2-lii"><code class="code-zul">&lt;script</code><code class="code-celeste">src=</code><code>"https://stackpath.bockcsbuebfqwncpoibeuvbwiovbewkhbj...</code>"></li>
+                            </ul>                           
+                        </div>                        
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <button class="btn-CDN">Explore the docs</button>                      
+                </div>
+                <div class="item3">
+                    <img src="./img/ico-themes.png" alt="instalar">
+                    <h2 class="item1-Instalation">Official Themes</h2>
+                    <p class="parrafo-contendio-instala">Inlcude Bootstrap's source sass and JavaScript files via npm, Composer or Meteor. Package managed installa don´t include documentation, but do inlcude our build system and readme.</p>
+                    <img src="./img/theme_img.png" alt="tema_oficial">
+                    <br>
+                    <hr>
+                    <br>
+                    <button class="btn-CDN">Browse themes</button>                    
+                </div>               
+            </div>
+        </section>
+        <!--BARRA DE FOOTER-->
+        <footer class="footer-widgets">                  
+                  <ul class="nav-links-Footer">
+                      <li class="lista-Footer">GitHub</li>
+                      <li>Twitter</li>
+                      <li>Examples</li>
+                      <li>About</li>
+                  </ul>
+                  <p class="footer-parrafo">Designed and built with all the love in the world bby the <span>Bootstrap team</span>&nbsp;with help off<span>&nbsp;our contributors.</span></p>
+                  <p class="footer-parrafo">Currently v4.3.1. Code licensed<span>&nbsp;MIT</span>,&nbsp;docs<span>&nbsp;CC BY 3.0</span></p>              
+        </footer>          
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
